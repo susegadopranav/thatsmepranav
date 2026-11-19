@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@theme inline { --font-serif: var(--font-fraunces), Georgia, serif; --font-sans: var(--font-instrument), system-ui, sans-serif; }
+:root{--bg:#F6F1E6;--bg2:#EBE4D2;--ink:#232220;--forest:#1F3A2E;--gold:#A8854A;--mute:#6B665B;--line:#cfc7b2;--on:#F6F1E6}
+@media (prefers-color-scheme:dark){:root{--bg:#171A17;--bg2:#1F241F;--ink:#ECE6D6;--forest:#9DB8A6;--gold:#C9A768;--mute:#a49f92;--line:#3a3f38;--on:#171A17}}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-sans);font-size:17px;line-height:1.65}
+h1,h2,h3{font-family:var(--font-serif);letter-spacing:-.02em}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
